@@ -1,0 +1,68 @@
+/* src/styles/PlanForm.css */
+
+body {
+  background-color: #333131; /* Dark background for the whole page */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.plan-form-container {
+  background-color: #eef6ee82; /* White background for the form container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.plan-form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.plan-form-group label {
+  flex: 0 0 150px; /* Adjust width as needed */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.plan-form-group input,
+.plan-form-group select,
+.plan-form-group textarea {
+  flex: 1;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+.submitted-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9; /* Light grey background for the submitted info */
+}
+
+.submitted-info-row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.submitted-info-label {
+  flex: 0 0 150px; /* Adjust width as needed */
+  font-weight: bold;
+}
+
+.submitted-info-value {
+  flex: 1;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
